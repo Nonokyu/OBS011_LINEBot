@@ -91,7 +91,7 @@ if __name__ == "__main__":
 
 @app.route(xxx)の部分でその関数の動作をWebアプリのURLに対応付けている。
 
-WebアプリのURLがhttps://example.comだった場合、上の例だと、https://example.comにアクセスすると関数が実行される。
+WebアプリのURLがhttps://example.com だった場合、上の例だと、https://example.com にアクセスすると関数が実行される。
 
 @app.route("/good")の場合だと、https://example.com/good にアクセスすれば実行される。
 
@@ -296,9 +296,9 @@ Webhook settingsのWebhookURLにアプリのURLを入力する。
 
 おそらく、https://ｘｘｘｘｘｘｘｘ.ngrok.io のようなURLが発行されるので、
 
-https://ｘｘｘｘｘｘｘｘ.ngrok.io/callback　と入力すれば設定完了である。
+https://ｘｘｘｘｘｘｘｘ.ngrok.io/callback と入力すれば設定完了である。
 
-※LINEはSSL対応のURL（https://で始まるURL）しか使用できない。
+※LINEはSSL対応のURL（httpsで始まるURL）しか使用できない。
 
 ### 3.3 その他応答設定
 デフォルトのままだと、応答メッセージと挨拶メッセージがオンになっているので、BOTからの応答とLINEデフォルトの応答の両方が発生してしまう。
