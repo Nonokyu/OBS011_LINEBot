@@ -44,6 +44,12 @@ type nul > localsetting.py
 type nul > .env
 ```
 
+localsetting.pyの中に次のように記載
+```python:localsetting.py
+from dotenv import load_dotenv
+load_dotenv()
+```
+
 ## 2. app.pyの確認
 
 app.py が当プロジェクトのメインとなるPythonファイルである。
