@@ -11,6 +11,10 @@ git clone https://github.com/Nonokyu/OBS011_LINEBot.git
 
 ### 1.2 必要ライブラリのインストール
 clone 成功を確認後、
+```shell script
+cd OBS011_LINEBot
+```
+を実行してでディレクトリを移動後、
 ```
 pip install -r"requirements.txt"
 ```
